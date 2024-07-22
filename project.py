@@ -98,12 +98,6 @@ class Library:
         for student in self.students:
             print("Name: {}".format(student.get_name()))
 
-#library=Library()
-#book1 = Book(1, "Avtoritet Turalin heyati", " Tural kishi", 3)
-#library.add_book(book1)
-#library.search_books_by_author_name("Tural kishi`")
-
-
 # Create a library instance
 library = Library()
 
